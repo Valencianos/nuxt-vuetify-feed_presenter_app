@@ -12,14 +12,24 @@
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "@nuxtjs/feed": "^2.0.0",
+    "@pinia/nuxt": "^0.5.4",
+    "axios": "^1.7.7",
+    "fs": "^0.0.1-security",
     "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "rss": "^1.2.2",
+    "rss-to-json": "^2.1.1",
     "sass": "^1.79.3",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.3",
+    "sass-loader": "^16.0.2",
     "vite-plugin-vuetify": "^2.0.4",
-    "vuetify": "^3.7.0-beta.1"
+    "vuetify": "^3.7.2"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }
